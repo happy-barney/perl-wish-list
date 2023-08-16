@@ -17,7 +17,22 @@ in PPC process
 - with discussions
   - each should be prefixed with idea name
 
-# List of ideas
+# Project support
+
+## Oshun
+
+This repository was inspired by [Oshun project](https://github.com/Perl-Apollo/oshun)
+with ideas designed to support its implementation.
+
+- [Independent symbol spaces](independent-symbol-spaces/README.md)
+  to store contracts separated from sub names
+- [Attributes workflow](attributes-workflow/README.md)
+  to allow import/export of contracts
+  side effect - it provides mechanism to support postfix notation
+- [Full-scale magic](full-scale-magic/README.md)
+  to make it possible to check data contracts on assignments
+
+Combination of these ideas provides enough functionality to implement postfix approach.
 
 # Alphabetical list of ideas
 
@@ -25,4 +40,12 @@ in PPC process
 
 Change behaviour of `use VERSION` so it will use only given version's
 behaviour in such code.
+
+## [Independent symbol spaces](independent-symbol-spaces/README.md)
+
+Provide standard tools to manage separated symbol spaces:
+- with qualification (package::symbol)
+- with generic warnings / errors (even compile time)
+- with handling of `my`, `local`, `our`, `state`
+- with importing / exporing
 
