@@ -49,6 +49,10 @@ Combination of these ideas provides enough functionality to implement postfix ap
 Change behaviour of `use VERSION` so it will use only given version's
 behaviour in such code.
 
+## [Extended require](extended-require/README.md)
+
+Similar to PPC `load_module` but little bit more generic.
+
 ## [Independent symbol spaces](independent-symbol-spaces/README.md)
 
 Provide standard tools to manage separated symbol spaces:
