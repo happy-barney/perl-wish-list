@@ -36,6 +36,14 @@ Combination of these ideas provides enough functionality to implement postfix ap
 
 # Alphabetical list of ideas
 
+## [Attributes workflow](attributes-workflow/README.md)
+
+- avoid disambiguities with labels, prototypes, signatures
+- support attribute specific grammar for parsing its value
+- support attributes on entities where it is not supported yet
+  - expressions
+  - function local (valid when function is called)
+
 ## [Exact `use VERSION`](exact-use-version/README.md)
 
 Change behaviour of `use VERSION` so it will use only given version's
