@@ -61,3 +61,9 @@ Provide standard tools to manage separated symbol spaces:
 - with handling of `my`, `local`, `our`, `state`
 - with importing / exporing
 
+## [Named arguments](named-arguments/README.md)
+
+New named arguments syntax call, preserving parameter sigils,
+allowing multiple list parameters and allowing caller to choose
+how to bind function parameters.
+
