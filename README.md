@@ -19,3 +19,10 @@ in PPC process
 
 # List of ideas
 
+# Alphabetical list of ideas
+
+## [Exact `use VERSION`](exact-use-version/README.md)
+
+Change behaviour of `use VERSION` so it will use only given version's
+behaviour in such code.
+
